@@ -18,14 +18,14 @@ const oldExpenses = [
     id:'e2',
     title: "chair",
     amount: 4,
-    date: new Date(2022, 4, 6),
+    date: new Date(2022, 7, 6),
   },
 
   {
     id:'e3',
     title: "keyboard",
     amount: 1.2,
-    date: new Date(2024, 4, 16),
+    date: new Date(2024, 7, 16),
   },
 ];
 
@@ -44,6 +44,8 @@ function App() {
       <div className="App">
       <NewExpense addExpense={addExpenseHandler} />
       <Expenses items={expenses} />
+
+      <h2 className='copyright'>©Habeeb</h2>
     </div>
   
       
